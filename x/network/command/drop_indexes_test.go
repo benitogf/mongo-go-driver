@@ -3,8 +3,8 @@ package command
 import (
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/mongo/writeconcern"
-	"github.com/mongodb/mongo-go-driver/x/network/description"
+	"github.com/benitogf/mongo-go-driver/mongo/writeconcern"
+	"github.com/benitogf/mongo-go-driver/x/network/description"
 )
 
 func TestDropIndexes(t *testing.T) {

@@ -9,14 +9,14 @@ package mongo
 import (
 	"context"
 
-	"github.com/mongodb/mongo-go-driver/bson/bsoncodec"
-	"github.com/mongodb/mongo-go-driver/mongo/options"
-	"github.com/mongodb/mongo-go-driver/mongo/readconcern"
-	"github.com/mongodb/mongo-go-driver/mongo/readpref"
-	"github.com/mongodb/mongo-go-driver/mongo/writeconcern"
-	"github.com/mongodb/mongo-go-driver/x/mongo/driver"
-	"github.com/mongodb/mongo-go-driver/x/network/command"
-	"github.com/mongodb/mongo-go-driver/x/network/description"
+	"github.com/benitogf/mongo-go-driver/bson/bsoncodec"
+	"github.com/benitogf/mongo-go-driver/mongo/options"
+	"github.com/benitogf/mongo-go-driver/mongo/readconcern"
+	"github.com/benitogf/mongo-go-driver/mongo/readpref"
+	"github.com/benitogf/mongo-go-driver/mongo/writeconcern"
+	"github.com/benitogf/mongo-go-driver/x/mongo/driver"
+	"github.com/benitogf/mongo-go-driver/x/network/command"
+	"github.com/benitogf/mongo-go-driver/x/network/description"
 )
 
 // Database performs operations on a given database.

@@ -13,13 +13,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/internal/testutil"
-	"github.com/mongodb/mongo-go-driver/x/mongo/driver/auth"
-	"github.com/mongodb/mongo-go-driver/x/mongo/driver/topology"
-	"github.com/mongodb/mongo-go-driver/x/network/address"
-	"github.com/mongodb/mongo-go-driver/x/network/command"
-	"github.com/mongodb/mongo-go-driver/x/network/compressor"
-	"github.com/mongodb/mongo-go-driver/x/network/connection"
+	"github.com/benitogf/mongo-go-driver/internal/testutil"
+	"github.com/benitogf/mongo-go-driver/x/mongo/driver/auth"
+	"github.com/benitogf/mongo-go-driver/x/mongo/driver/topology"
+	"github.com/benitogf/mongo-go-driver/x/network/address"
+	"github.com/benitogf/mongo-go-driver/x/network/command"
+	"github.com/benitogf/mongo-go-driver/x/network/compressor"
+	"github.com/benitogf/mongo-go-driver/x/network/connection"
 )
 
 func TestTopologyServer(t *testing.T) {

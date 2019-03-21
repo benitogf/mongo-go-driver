@@ -9,7 +9,7 @@ package event
 import (
 	"context"
 
-	"github.com/mongodb/mongo-go-driver/bson"
+	"github.com/benitogf/mongo-go-driver/bson"
 )
 
 // CommandStartedEvent represents an event generated when a command is sent to a server.

@@ -11,14 +11,14 @@ import (
 	"net"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/bson/bsoncodec"
-	"github.com/mongodb/mongo-go-driver/event"
-	"github.com/mongodb/mongo-go-driver/mongo/readconcern"
-	"github.com/mongodb/mongo-go-driver/mongo/readpref"
-	"github.com/mongodb/mongo-go-driver/mongo/writeconcern"
-	"github.com/mongodb/mongo-go-driver/x/mongo/driver/topology"
-	"github.com/mongodb/mongo-go-driver/x/network/connection"
-	"github.com/mongodb/mongo-go-driver/x/network/connstring"
+	"github.com/benitogf/mongo-go-driver/bson/bsoncodec"
+	"github.com/benitogf/mongo-go-driver/event"
+	"github.com/benitogf/mongo-go-driver/mongo/readconcern"
+	"github.com/benitogf/mongo-go-driver/mongo/readpref"
+	"github.com/benitogf/mongo-go-driver/mongo/writeconcern"
+	"github.com/benitogf/mongo-go-driver/x/mongo/driver/topology"
+	"github.com/benitogf/mongo-go-driver/x/network/connection"
+	"github.com/benitogf/mongo-go-driver/x/network/connstring"
 )
 
 // ContextDialer makes new network connections

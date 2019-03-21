@@ -12,8 +12,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/mongo/options"
-	"github.com/mongodb/mongo-go-driver/x/bsonx"
+	"github.com/benitogf/mongo-go-driver/mongo/options"
+	"github.com/benitogf/mongo-go-driver/x/bsonx"
 
 	"bytes"
 	"fmt"
@@ -21,13 +21,13 @@ import (
 
 	"os"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/event"
-	"github.com/mongodb/mongo-go-driver/internal/testutil"
-	"github.com/mongodb/mongo-go-driver/internal/testutil/helpers"
-	"github.com/mongodb/mongo-go-driver/mongo/readpref"
-	"github.com/mongodb/mongo-go-driver/mongo/writeconcern"
-	"github.com/mongodb/mongo-go-driver/x/mongo/driver/session"
+	"github.com/benitogf/mongo-go-driver/bson"
+	"github.com/benitogf/mongo-go-driver/event"
+	"github.com/benitogf/mongo-go-driver/internal/testutil"
+	"github.com/benitogf/mongo-go-driver/internal/testutil/helpers"
+	"github.com/benitogf/mongo-go-driver/mongo/readpref"
+	"github.com/benitogf/mongo-go-driver/mongo/writeconcern"
+	"github.com/benitogf/mongo-go-driver/x/mongo/driver/session"
 )
 
 const cmTestsDir = "../data/command-monitoring"

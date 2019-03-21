@@ -16,14 +16,14 @@ import (
 
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/bson/primitive"
-	"github.com/mongodb/mongo-go-driver/mongo"
-	"github.com/mongodb/mongo-go-driver/mongo/options"
-	"github.com/mongodb/mongo-go-driver/mongo/readconcern"
-	"github.com/mongodb/mongo-go-driver/mongo/readpref"
-	"github.com/mongodb/mongo-go-driver/mongo/writeconcern"
-	"github.com/mongodb/mongo-go-driver/x/bsonx"
+	"github.com/benitogf/mongo-go-driver/bson"
+	"github.com/benitogf/mongo-go-driver/bson/primitive"
+	"github.com/benitogf/mongo-go-driver/mongo"
+	"github.com/benitogf/mongo-go-driver/mongo/options"
+	"github.com/benitogf/mongo-go-driver/mongo/readconcern"
+	"github.com/benitogf/mongo-go-driver/mongo/readpref"
+	"github.com/benitogf/mongo-go-driver/mongo/writeconcern"
+	"github.com/benitogf/mongo-go-driver/x/bsonx"
 )
 
 // TODO: add sessions options

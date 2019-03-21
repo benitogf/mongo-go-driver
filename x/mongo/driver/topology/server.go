@@ -15,12 +15,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/event"
-	"github.com/mongodb/mongo-go-driver/x/mongo/driver/auth"
-	"github.com/mongodb/mongo-go-driver/x/network/address"
-	"github.com/mongodb/mongo-go-driver/x/network/command"
-	"github.com/mongodb/mongo-go-driver/x/network/connection"
-	"github.com/mongodb/mongo-go-driver/x/network/description"
+	"github.com/benitogf/mongo-go-driver/event"
+	"github.com/benitogf/mongo-go-driver/x/mongo/driver/auth"
+	"github.com/benitogf/mongo-go-driver/x/network/address"
+	"github.com/benitogf/mongo-go-driver/x/network/command"
+	"github.com/benitogf/mongo-go-driver/x/network/connection"
+	"github.com/benitogf/mongo-go-driver/x/network/description"
 )
 
 const minHeartbeatInterval = 500 * time.Millisecond

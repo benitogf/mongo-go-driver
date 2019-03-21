@@ -12,12 +12,12 @@ import (
 
 	"errors"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/mongo/writeconcern"
-	"github.com/mongodb/mongo-go-driver/x/bsonx"
-	"github.com/mongodb/mongo-go-driver/x/mongo/driver/session"
-	"github.com/mongodb/mongo-go-driver/x/network/description"
-	"github.com/mongodb/mongo-go-driver/x/network/wiremessage"
+	"github.com/benitogf/mongo-go-driver/bson"
+	"github.com/benitogf/mongo-go-driver/mongo/writeconcern"
+	"github.com/benitogf/mongo-go-driver/x/bsonx"
+	"github.com/benitogf/mongo-go-driver/x/mongo/driver/session"
+	"github.com/benitogf/mongo-go-driver/x/network/description"
+	"github.com/benitogf/mongo-go-driver/x/network/wiremessage"
 )
 
 // Write represents a generic write database command.

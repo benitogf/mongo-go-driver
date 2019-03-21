@@ -10,8 +10,8 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/mongodb/mongo-go-driver/bson/bsoncodec"
-	"github.com/mongodb/mongo-go-driver/bson/bsonrw"
+	"github.com/benitogf/mongo-go-driver/bson/bsoncodec"
+	"github.com/benitogf/mongo-go-driver/bson/bsonrw"
 )
 
 var primitiveCodecs PrimitiveCodecs

@@ -7,9 +7,9 @@
 package session
 
 import (
-	"github.com/mongodb/mongo-go-driver/mongo/readconcern"
-	"github.com/mongodb/mongo-go-driver/mongo/readpref"
-	"github.com/mongodb/mongo-go-driver/mongo/writeconcern"
+	"github.com/benitogf/mongo-go-driver/mongo/readconcern"
+	"github.com/benitogf/mongo-go-driver/mongo/readpref"
+	"github.com/benitogf/mongo-go-driver/mongo/writeconcern"
 )
 
 // ClientOptions represents all possible options for creating a client session.

@@ -9,10 +9,10 @@ package bsonrwtest
 import (
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/bson/bsonrw"
-	"github.com/mongodb/mongo-go-driver/bson/bsontype"
-	"github.com/mongodb/mongo-go-driver/bson/primitive"
-	"github.com/mongodb/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/benitogf/mongo-go-driver/bson/bsonrw"
+	"github.com/benitogf/mongo-go-driver/bson/bsontype"
+	"github.com/benitogf/mongo-go-driver/bson/primitive"
+	"github.com/benitogf/mongo-go-driver/x/bsonx/bsoncore"
 )
 
 var _ bsonrw.ValueReader = (*ValueReaderWriter)(nil)

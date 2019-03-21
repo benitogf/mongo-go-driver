@@ -221,7 +221,7 @@ allows a primary to keep its client connections open after a step down. This
 fail point operates by hanging the step down procedure (i.e. ``replSetStepDown``
 command) until the fail point is later deactivated.
 
-.. _d4eb562: https://github.com/mongodb/mongo/commit/d4eb562ac63717904f24de4a22e395070687bc62
+.. _d4eb562: https://github.com/benitogf/mongo/commit/d4eb562ac63717904f24de4a22e395070687bc62
 .. _SERVER-31355: https://jira.mongodb.org/browse/SERVER-31355
 
 The following test requires three MongoClient instances and will generally
@@ -241,8 +241,8 @@ down primary's state change via SDAM, it must be configured with a large
 also need to set `serverSelectionTryOnce`_ to ``false`` to ensure that server
 selection for the retry attempt waits until a new primary is elected.
 
-.. _heartbeatFrequencyMS: https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#heartbeatfrequencyms
-.. _serverSelectionTryOnce: https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst#serverselectiontryonce
+.. _heartbeatFrequencyMS: https://github.com/benitogf/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#heartbeatfrequencyms
+.. _serverSelectionTryOnce: https://github.com/benitogf/specifications/blob/master/source/server-selection/server-selection.rst#serverselectiontryonce
 
 The test proceeds as follows:
 

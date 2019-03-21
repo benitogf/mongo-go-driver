@@ -11,15 +11,15 @@ import (
 
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/mongo/options"
-	"github.com/mongodb/mongo-go-driver/x/bsonx"
-	"github.com/mongodb/mongo-go-driver/x/bsonx/bsoncore"
-	"github.com/mongodb/mongo-go-driver/x/mongo/driver/session"
-	"github.com/mongodb/mongo-go-driver/x/mongo/driver/topology"
-	"github.com/mongodb/mongo-go-driver/x/mongo/driver/uuid"
-	"github.com/mongodb/mongo-go-driver/x/network/command"
-	"github.com/mongodb/mongo-go-driver/x/network/connection"
-	"github.com/mongodb/mongo-go-driver/x/network/description"
+	"github.com/benitogf/mongo-go-driver/mongo/options"
+	"github.com/benitogf/mongo-go-driver/x/bsonx"
+	"github.com/benitogf/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/benitogf/mongo-go-driver/x/mongo/driver/session"
+	"github.com/benitogf/mongo-go-driver/x/mongo/driver/topology"
+	"github.com/benitogf/mongo-go-driver/x/mongo/driver/uuid"
+	"github.com/benitogf/mongo-go-driver/x/network/command"
+	"github.com/benitogf/mongo-go-driver/x/network/connection"
+	"github.com/benitogf/mongo-go-driver/x/network/description"
 )
 
 // ListIndexes handles the full cycle dispatch and execution of a listIndexes command against the provided

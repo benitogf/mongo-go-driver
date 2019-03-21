@@ -13,17 +13,17 @@ import (
 
 	"fmt"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/bson/bsontype"
-	"github.com/mongodb/mongo-go-driver/bson/primitive"
-	"github.com/mongodb/mongo-go-driver/mongo/readconcern"
-	"github.com/mongodb/mongo-go-driver/mongo/writeconcern"
-	"github.com/mongodb/mongo-go-driver/x/bsonx"
-	"github.com/mongodb/mongo-go-driver/x/bsonx/bsoncore"
-	"github.com/mongodb/mongo-go-driver/x/mongo/driver/session"
-	"github.com/mongodb/mongo-go-driver/x/network/description"
-	"github.com/mongodb/mongo-go-driver/x/network/result"
-	"github.com/mongodb/mongo-go-driver/x/network/wiremessage"
+	"github.com/benitogf/mongo-go-driver/bson"
+	"github.com/benitogf/mongo-go-driver/bson/bsontype"
+	"github.com/benitogf/mongo-go-driver/bson/primitive"
+	"github.com/benitogf/mongo-go-driver/mongo/readconcern"
+	"github.com/benitogf/mongo-go-driver/mongo/writeconcern"
+	"github.com/benitogf/mongo-go-driver/x/bsonx"
+	"github.com/benitogf/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/benitogf/mongo-go-driver/x/mongo/driver/session"
+	"github.com/benitogf/mongo-go-driver/x/network/description"
+	"github.com/benitogf/mongo-go-driver/x/network/result"
+	"github.com/benitogf/mongo-go-driver/x/network/wiremessage"
 )
 
 // WriteBatch represents a single batch for a write operation.

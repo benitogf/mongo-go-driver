@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mongodb/mongo-go-driver/x/network/connstring"
+	"github.com/benitogf/mongo-go-driver/x/network/connstring"
 	"github.com/stretchr/testify/assert"
 )
 

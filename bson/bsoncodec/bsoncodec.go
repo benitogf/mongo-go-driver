@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/mongodb/mongo-go-driver/bson/bsonrw"
-	"github.com/mongodb/mongo-go-driver/bson/bsontype"
+	"github.com/benitogf/mongo-go-driver/bson/bsonrw"
+	"github.com/benitogf/mongo-go-driver/bson/bsontype"
 )
 
 // Marshaler is an interface implemented by types that can marshal themselves

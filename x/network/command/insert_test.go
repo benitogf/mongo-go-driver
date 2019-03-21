@@ -9,8 +9,8 @@ package command
 import (
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/x/bsonx"
-	"github.com/mongodb/mongo-go-driver/x/network/description"
+	"github.com/benitogf/mongo-go-driver/x/bsonx"
+	"github.com/benitogf/mongo-go-driver/x/network/description"
 	"github.com/stretchr/testify/assert"
 )
 

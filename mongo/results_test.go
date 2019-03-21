@@ -9,8 +9,8 @@ package mongo
 import (
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/bson"
-	"github.com/mongodb/mongo-go-driver/x/bsonx"
+	"github.com/benitogf/mongo-go-driver/bson"
+	"github.com/benitogf/mongo-go-driver/x/bsonx"
 	"github.com/stretchr/testify/require"
 )
 

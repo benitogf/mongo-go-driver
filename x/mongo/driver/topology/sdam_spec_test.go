@@ -13,11 +13,11 @@ import (
 	"path"
 	"testing"
 
-	"github.com/mongodb/mongo-go-driver/internal/testutil/helpers"
-	"github.com/mongodb/mongo-go-driver/x/network/address"
-	"github.com/mongodb/mongo-go-driver/x/network/connstring"
-	"github.com/mongodb/mongo-go-driver/x/network/description"
-	"github.com/mongodb/mongo-go-driver/x/network/result"
+	"github.com/benitogf/mongo-go-driver/internal/testutil/helpers"
+	"github.com/benitogf/mongo-go-driver/x/network/address"
+	"github.com/benitogf/mongo-go-driver/x/network/connstring"
+	"github.com/benitogf/mongo-go-driver/x/network/description"
+	"github.com/benitogf/mongo-go-driver/x/network/result"
 	"github.com/stretchr/testify/require"
 )
 

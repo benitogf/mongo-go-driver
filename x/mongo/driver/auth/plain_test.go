@@ -13,11 +13,11 @@ import (
 
 	"encoding/base64"
 
-	"github.com/mongodb/mongo-go-driver/internal"
-	"github.com/mongodb/mongo-go-driver/x/bsonx"
-	. "github.com/mongodb/mongo-go-driver/x/mongo/driver/auth"
-	"github.com/mongodb/mongo-go-driver/x/network/description"
-	"github.com/mongodb/mongo-go-driver/x/network/wiremessage"
+	"github.com/benitogf/mongo-go-driver/internal"
+	"github.com/benitogf/mongo-go-driver/x/bsonx"
+	. "github.com/benitogf/mongo-go-driver/x/mongo/driver/auth"
+	"github.com/benitogf/mongo-go-driver/x/network/description"
+	"github.com/benitogf/mongo-go-driver/x/network/wiremessage"
 )
 
 func TestPlainAuthenticator_Fails(t *testing.T) {

@@ -12,7 +12,7 @@
 package bson
 
 import (
-	"github.com/mongodb/mongo-go-driver/bson/primitive"
+	"github.com/benitogf/mongo-go-driver/bson/primitive"
 )
 
 // Zeroer allows custom struct types to implement a report of zero

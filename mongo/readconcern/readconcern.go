@@ -7,8 +7,8 @@
 package readconcern
 
 import (
-	"github.com/mongodb/mongo-go-driver/bson/bsontype"
-	"github.com/mongodb/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/benitogf/mongo-go-driver/bson/bsontype"
+	"github.com/benitogf/mongo-go-driver/x/bsonx/bsoncore"
 )
 
 // ReadConcern for replica sets and replica set shards determines which data to return from a query.
